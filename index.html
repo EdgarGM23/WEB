@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!--Menu Encabezado-->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Edgar</a>
+            </div>
+            <nav id="n">
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#sobremi">Sobre mi</a></li>
+                    <li><a href="#Skills">Habilidades</a></li>
+                    <li><a href="#curriculum">Curriculum</a></li>
+                    <li><a href="#portafolio">Portafolio</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                    <li><a href="#fuente">Fuente</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+    <!--Estilo para cambiar tamaño de la foto-->
+    <style>
+        .foto{
+            width: 320px;
+            height: 320px;
+        }
+    </style>
+    <!--Inicio-->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenido_img">
+                <img src="img/Edgar.png" class="foto" alt="">
+            </div>
+            <h1>Edgar Guzman</h1>
+            <h2>Ingeniero de Software con Inteligencia Artificial</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!--Sobre mi-->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mi</h2>
+            <p><span>Hola, Soy Edgar Guzman</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut perspiciatis odit inventore atque nam sit, quis optio autem iste similique sequi, voluptate quod, illo culpa impedit cum sapiente fugiat aspernatur!</p>
+
+            <div class="fila">
+                <!--Datos personales-->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            23-03-2002
+                        </li>
+                        <li>
+                            <strong>Telefono</strong>
+                            998699028
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            eduardoguzmanmacedo@gmail.com
+                        </li>
+                        <li>
+                            <strong>Direccion</strong>
+                            Lima-Lince
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>Estudiante</span>
+                        </li>
+                    </ul>
+                </div>
+                <!--Intereses-->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="intereses">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>Juegos</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>Musica</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-clapperboard"></i>
+                            <span>Peliculas</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <button>
+                DescargarCV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+    
+</body>
+</html>
