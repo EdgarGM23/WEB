@@ -10,5 +10,5 @@ function mostrarOcultarMenu(){
     }
 }
 function seleccionar(){
-    //Ocultar menu al seleccionar opcion
+    //Ocultar menu al seleccionar opcion si
 }
